@@ -132,4 +132,14 @@ SELECT ROWID, from_date, emp_no
     FROM dept_emp WHERE dept_no = 'd004'
     ORDER BY emp_no;
 
+SELECT ROWID, from_date, emp_no 
+    FROM dept_emp WHERE dept_no = 'd004'
+    ORDER BY emp_no;
+
+SELECT ROWID, first_name, last_name FROM employees WHERE gender = 'M';
+
+SELECT ROWID, first_name, last_name FROM employees WHERE gender = 'F';
+
+SELECT ROWID, emp_no FROM salaries WHERE salary = '50059';
+
 --source show_elapsed.sql ;
